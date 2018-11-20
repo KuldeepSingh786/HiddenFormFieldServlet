@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+	<servlet-name>LoginServlet</servlet-name>
+	<servlet-class>test.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>LoginServlet</servlet-name>
+	<url-pattern>/log</url-pattern>	
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>WelComeServlet</servlet-name>
+	<servlet-class>test.WelComeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>WelComeServlet</servlet-name>
+	<url-pattern>/welcome</url-pattern>	
+</servlet-mapping>
+
+<welcome-file-list>
+	<welcome-file>login.html</welcome-file>
+</welcome-file-list>
+
+
+</web-app>
